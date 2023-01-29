@@ -3,8 +3,8 @@ import random
 from neuron import *
 
 
-train_data = pd.read_csv('mnist_train.csv')
-test_data = pd.read_csv('mnist_test.csv')
+train_data = pd.read_csv('C:/Users/bogda/PycharmProjects/date/mnist_train.csv')
+test_data = pd.read_csv('C:/Users/bogda/PycharmProjects/date/mnist_test.csv')
 
 train_data = np.array(train_data)
 dev_data = np.array(test_data)
